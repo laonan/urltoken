@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: urltoken
+Version: 1.0.0
+Summary: Simplifies encoding sensitive data like emails URL-safe tokens.
+Home-page: https://github.com/laonan/urltoken
+Author: Laonan
+Author-email: hello@laonan.net
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/laonan/urltoken/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# urltoken
+
+## Description
+URL Token Encoder simplifies encoding sensitive data like emails and usernames into URL-safe tokens. Unlike encryption, it preserves data integrity for easy retrieval. Ideal for securing information in URLs without encryption complexities.
+
+Features:
+
+* Encode sensitive content into URL-safe tokens.
+* Lightweight and easy integration into Python apps.
+* Simplifies data security in web apps and APIs.
+
+
+### Installation
+   
+    pip install urltoken
+
+    
+### Usage
+    
+    from urltoken import UrlTokenEncoder
+    
+    token = UrlTokenEncoder.encode('example@domain.com')
+    print(token)
+
+    decoded = UrlTokenEncoder.decode(token)
+    print(decoded)
+
+### Issues
+https://github.com/laonan/urltoken/issues
+
+

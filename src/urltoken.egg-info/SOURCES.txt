@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/urltoken/__init__.py
+src/urltoken/encoder.py
+src/urltoken.egg-info/PKG-INFO
+src/urltoken.egg-info/SOURCES.txt
+src/urltoken.egg-info/dependency_links.txt
+src/urltoken.egg-info/top_level.txt
+src/urltoken.egg-info/zip-safe
